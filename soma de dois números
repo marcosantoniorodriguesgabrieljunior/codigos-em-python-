@@ -1,0 +1,4 @@
+n1=float(input(print('escreva o primeiro número:')))
+n2=float(input(print('escreva o segundo número:')))
+soma=(n1+n2)
+print('a soma entre o primeiro digito {} e o segundo digito {} é igual á:{}!'.format(n1, n2, soma))
