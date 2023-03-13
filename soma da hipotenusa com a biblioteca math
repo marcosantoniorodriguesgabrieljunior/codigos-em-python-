@@ -1,0 +1,7 @@
+import math
+print('olá eu sou um app na qual sérve para calcular o comprimento da ipotenusa')
+co=float(input('escreva o valor do cateto oposto: '))
+ca=float(input('escreva o valor do cateto adjacente: '))
+h=math.hypot(co,ca)
+print('o cateto adjacente é: {} o cateto oposto é: {} e a hipotenusa é equivalente á: {:.2f}'.format(ca,co,h))
+print('obrigado por me utilizar,e até a proxima')
